@@ -23,7 +23,7 @@ sleep 2
 echo "....."
 sleep 0.5
 
-getrich=$((($RANDOM % 15)+29))
+getrich=$((($RANDOM % 15)+ $age))
 
 echo "$name will be a millionaire at age $getrich"
 
